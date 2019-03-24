@@ -1,0 +1,19 @@
+{
+    "data_location":"cat.npz",
+    "enc_hidden_size": 256,
+    "dec_hidden_size": 512,
+    "Nz": 128,
+    "M": 20,
+    "dropout": 0.9,
+    "batch_size":100,
+    "eta_min": 0.01,
+    "R": 0.99995,
+    "KL_min": 0.2,
+    "wKL": 0.5,
+    "lr": 0.001,
+    "lr_decay": 0.9999,
+    "min_lr": 0.00001,
+    "grad_clip": 1.0,
+    "temperature": 0.4,
+    "max_seq_length": 200
+}
